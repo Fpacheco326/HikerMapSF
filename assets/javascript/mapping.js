@@ -45,7 +45,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZnBhY2hlY28zMjYiLCJhIjoiY2pydmhlMGZiMDI0dTQ0b
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/outdoors-v11',
-    zoom: 13,
+    zoom: 12,
     center: sanFrancisco,
 });
 

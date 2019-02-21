@@ -193,6 +193,20 @@ map.on('load', function () {
         map.on('mouseleave', 'points', function () {
         map.getCanvas().style.cursor = '';
         });
+
+    map.on('click', 'points', function (e) {
+            map.flyTo({center: e.features[0].geometry.coordinates});
+            });
+             
+        
+            map.on('mouseenter', 'points', function () {
+            map.getCanvas().style.cursor = 'pointer';
+            });
+             
+  
+            map.on('mouseleave', 'points', function () {
+            map.getCanvas().style.cursor = '';
+            });
     
 });
 

@@ -1,13 +1,17 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url('../images/historicTrail.jpg');
+    background-size: cover;
+    background-position:right;
+    background-attachment: fixed;
 }
 
 #map {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 60%;
 }
 #menu {
     position: absolute;
@@ -28,4 +32,15 @@ body {
 
 #points{
     font-size: 30px;
+}
+
+header{
+    
+    float:right;
+    font-size: 35px;
+    height: 100%;
+    color: crimson;
+    background: black;
+   
+
 }

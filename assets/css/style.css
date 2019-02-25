@@ -2,8 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('../images/historicTrail.jpg');
-    background-position:right;
-    background-attachment: fixed;
+    background-position:cover;
+    background-attachment: center;
+    background-repeat: repeat-x;
+
 }
 #details {
     
@@ -15,6 +17,7 @@ body {
     width: 30%;
     margin-left: 100%;
     border: 10px;
+    padding: 1%;
 }
 
 #map {
@@ -49,8 +52,9 @@ header{
     float:right;
     font-size: 35px;
     height: 100%;
-    color: crimson;
+    color: whitesmoke;
     background: black;
+    padding: 1%;
   
 
 }

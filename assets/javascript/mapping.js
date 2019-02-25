@@ -111,7 +111,7 @@ var features = [{
     },
     "properties": {
         "title": "Mount Sutro Open Space Reserve",
-        "description": "<strong>Mount Sutro Open Space Reserve</strong><p><a href=\"./assets/images/sutroOSR.jpg\" target=\"_blank\" title=\"Opens picture in a new window\">Mount Sutro Open Space Reserve</a>. Covering 61 acres, the Open Space Preserve is described as a captivating hidden forest within the city that’s punctuated by the 908-foot summit named after Adolph Sutro, the influential mayor of San Francisco who served between 1894 and 1896. </p>",
+        "description": "<strong>Mount Sutro Open Space Reserve</strong><p><a href=\"./assets/images/sutroOSR.jpg\" target=\"_blank\" title=\"Opens picture in a new window\">Mount Sutro Open Space Reserve</a>. This park covers 61 acres, the Open Space Preserve is an area in San Francisco that feels like an enchanted hidden forest within the city that’s definitely a staple with its 908-foot summit named after Adolph Sutro, whom was one of San Francisco's mayors between 1894 and 1896. </p>",
     "icon": "park"
     }
 },
@@ -263,3 +263,5 @@ $('button').on('click', function () {
     })
 
 });
+
+//Sources i referenced include CBS San Francisco, National Park Services and San Francisco Rec and Park.//
